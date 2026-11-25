@@ -1,0 +1,9 @@
+{
+  "@@locale": "rw",
+  "balance": "Saldo",
+  "receive_money": "Kwakira Amafaranga",
+  "send_money": "Kohereza Amafaranga",
+  "amount_in_rwf": "Amafaranga (RWF)",
+  "generate_qr_code": "Hindura QR Code",
+  "provisional_balance": "Saldo ry'igihe gito"
+}

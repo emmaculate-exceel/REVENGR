@@ -1,0 +1,214 @@
+.class public final Lr3/P1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ll4/d;
+
+
+# static fields
+.field public static final a:Lr3/P1;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 4
+
+    .line 1
+    new-instance v0, Lr3/P1;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lr3/P1;->a:Lr3/P1;
+
+    .line 7
+    .line 8
+    sget-object v0, Lr3/C;->zza:Lr3/C;
+
+    .line 9
+    .line 10
+    new-instance v1, Lr3/A;
+
+    .line 11
+    .line 12
+    const/4 v2, 0x1
+
+    .line 13
+    invoke-direct {v1, v2, v0}, Lr3/A;-><init>(ILr3/C;)V
+
+    .line 14
+    .line 15
+    .line 16
+    const-class v0, Lr3/D;
+
+    .line 17
+    .line 18
+    invoke-static {v0, v1}, Lp3/a0;->i(Ljava/lang/Class;Lr3/A;)Ljava/util/HashMap;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object v1
+
+    .line 22
+    invoke-static {v1}, LE/d0;->B(Ljava/util/HashMap;)V
+
+    .line 23
+    .line 24
+    .line 25
+    sget-object v1, Lr3/C;->zza:Lr3/C;
+
+    .line 26
+    .line 27
+    new-instance v2, Lr3/A;
+
+    .line 28
+    .line 29
+    const/4 v3, 0x2
+
+    .line 30
+    invoke-direct {v2, v3, v1}, Lr3/A;-><init>(ILr3/C;)V
+
+    .line 31
+    .line 32
+    .line 33
+    invoke-static {v0, v2}, Lp3/a0;->i(Ljava/lang/Class;Lr3/A;)Ljava/util/HashMap;
+
+    .line 34
+    .line 35
+    .line 36
+    move-result-object v1
+
+    .line 37
+    invoke-static {v1}, LE/d0;->B(Ljava/util/HashMap;)V
+
+    .line 38
+    .line 39
+    .line 40
+    sget-object v1, Lr3/C;->zza:Lr3/C;
+
+    .line 41
+    .line 42
+    new-instance v2, Lr3/A;
+
+    .line 43
+    .line 44
+    const/4 v3, 0x3
+
+    .line 45
+    invoke-direct {v2, v3, v1}, Lr3/A;-><init>(ILr3/C;)V
+
+    .line 46
+    .line 47
+    .line 48
+    invoke-static {v0, v2}, Lp3/a0;->i(Ljava/lang/Class;Lr3/A;)Ljava/util/HashMap;
+
+    .line 49
+    .line 50
+    .line 51
+    move-result-object v1
+
+    .line 52
+    invoke-static {v1}, LE/d0;->B(Ljava/util/HashMap;)V
+
+    .line 53
+    .line 54
+    .line 55
+    sget-object v1, Lr3/C;->zza:Lr3/C;
+
+    .line 56
+    .line 57
+    new-instance v2, Lr3/A;
+
+    .line 58
+    .line 59
+    const/4 v3, 0x4
+
+    .line 60
+    invoke-direct {v2, v3, v1}, Lr3/A;-><init>(ILr3/C;)V
+
+    .line 61
+    .line 62
+    .line 63
+    invoke-static {v0, v2}, Lp3/a0;->i(Ljava/lang/Class;Lr3/A;)Ljava/util/HashMap;
+
+    .line 64
+    .line 65
+    .line 66
+    move-result-object v1
+
+    .line 67
+    invoke-static {v1}, LE/d0;->B(Ljava/util/HashMap;)V
+
+    .line 68
+    .line 69
+    .line 70
+    sget-object v1, Lr3/C;->zza:Lr3/C;
+
+    .line 71
+    .line 72
+    new-instance v2, Lr3/A;
+
+    .line 73
+    .line 74
+    const/4 v3, 0x5
+
+    .line 75
+    invoke-direct {v2, v3, v1}, Lr3/A;-><init>(ILr3/C;)V
+
+    .line 76
+    .line 77
+    .line 78
+    invoke-static {v0, v2}, Lp3/a0;->i(Ljava/lang/Class;Lr3/A;)Ljava/util/HashMap;
+
+    .line 79
+    .line 80
+    .line 81
+    move-result-object v0
+
+    .line 82
+    invoke-static {v0}, LE/d0;->B(Ljava/util/HashMap;)V
+
+    .line 83
+    .line 84
+    .line 85
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic a(Ljava/lang/Object;Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    if-nez p1, :cond_0
+
+    .line 2
+    .line 3
+    check-cast p2, Ll4/e;
+
+    .line 4
+    .line 5
+    const/4 p1, 0x0
+
+    .line 6
+    throw p1
+
+    .line 7
+    :cond_0
+    new-instance p1, Ljava/lang/ClassCastException;
+
+    .line 8
+    .line 9
+    invoke-direct {p1}, Ljava/lang/ClassCastException;-><init>()V
+
+    .line 10
+    .line 11
+    .line 12
+    throw p1
+.end method

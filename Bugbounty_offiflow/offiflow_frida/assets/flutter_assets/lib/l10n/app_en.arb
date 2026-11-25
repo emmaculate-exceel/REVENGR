@@ -1,0 +1,12 @@
+{
+  "@@locale": "en",
+  "balance": "Balance",
+  "receive_money": "Receive Money",
+  "send_money": "Send Money",
+  "amount_in_rwf": "Amount (RWF)",
+  "generate_qr_code": "Generate QR Code",
+  "provisional_balance": "Provisional Balance",
+  "sync_pending": "Sync Pending",
+  "offline_mode": "Offline Mode",
+  "amount": "Amount"
+}

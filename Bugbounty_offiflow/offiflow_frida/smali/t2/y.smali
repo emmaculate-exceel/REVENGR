@@ -1,0 +1,79 @@
+.class public final Lt2/y;
+.super Lt2/r;
+.source "SourceFile"
+
+
+# instance fields
+.field public final a:Z
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    .line 1
+    sget-object v0, Lq2/c;->V_1:Lq2/c;
+
+    .line 2
+    .line 3
+    sget-object v1, Lv2/a;->OPTIMAL:Lv2/a;
+
+    .line 4
+    .line 5
+    const-string v2, "addedInVersion"
+
+    .line 6
+    .line 7
+    invoke-static {v0, v2}, Lp6/g;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 8
+    .line 9
+    .line 10
+    const-string v0, "stabilityLevel"
+
+    .line 11
+    .line 12
+    invoke-static {v1, v0}, Lp6/g;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 13
+    .line 14
+    .line 15
+    return-void
+.end method
+
+.method public constructor <init>(Z)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-boolean p1, p0, Lt2/y;->a:Z
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Lt2/y;->a:Z
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Ljava/lang/String;->valueOf(Z)Ljava/lang/String;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    return-object v0
+.end method
